@@ -9,7 +9,7 @@ import SwiftUI
 import MapKit
 struct DetailViewCard: View {
     var locationItem: locationItem
-    
+    @State var favoriteLocation : [locationItem]
     var body: some View {
         ScrollView{
             ZStack {
@@ -61,16 +61,34 @@ struct DetailViewCard: View {
                 .shadow(radius: 3)
                 .padding([.top],20)
             HStack{
-                Button(action: {
-                            // Code to execute when the button is tapped
-                            print("Button tapped!")
-                        }) {
-                            Text("Add to Favorite!") // Text inside the button
-                                .padding() // Add some padding around the text
-                                .foregroundColor(.white) // Text color
-                                .background(Color.pink) // Background color of the button
-                                .cornerRadius(10) // Rounded corners for the button
+                if(favoriteLocation.contains {
+                    location in
+                    return location.id == locationItem.id
+                }){
+                    Button(action: {
+                        favoriteLocation.removeAll {
+                            location in
+                            return location.id == locationItem.id
                         }
+                            }) {
+                                Text("Remove from Favorite!")                    
+                                .padding()                           
+                                .foregroundColor(.white)
+                                    .background(Color.pink)
+                                    .cornerRadius(10)
+                        }
+                } else {
+                    Button(action: {
+                        favLocation.append(locationItem)
+                    }) {
+                        Text("Add to Favorite!")                    
+                        .padding()                           
+                        .foregroundColor(.white)
+                            .background(Color.pink)
+                            .cornerRadius(10)
+                    }
+                }
+                
             
             }
             Spacer()
@@ -81,6 +99,6 @@ struct DetailViewCard: View {
 
 struct DetailViewCard_Previews: PreviewProvider {
     static var previews: some View {
-        DetailViewCard(locationItem: locations[0])
+        DetailViewCard(locationItem: locations[0], favoriteLocation: favLocation)
     }
 }
