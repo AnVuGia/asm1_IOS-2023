@@ -16,19 +16,22 @@ struct DetailViewCard: View {
                 Image(locationItem.imageName)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .background(Color.black)
-                    .clipShape(RoundedRectangle(cornerRadius: 30))
                     .frame(width: 360, height: 350)
-                    
+                    .clipShape(RoundedRectangle(cornerRadius: 30))
+
                 Text(locationItem.name)
                     .foregroundColor(.black)
-                    .font(.largeTitle)
-                    .padding([.leading, .trailing], 70)
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .padding([.leading, .trailing], 10)
                     .padding([.top, .bottom], 10)
                     .background(Color.white)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .shadow(radius: 10) 
-                    .frame(width: 300, height: 400, alignment: .bottomLeading)
+                    .shadow(radius: 10)
+                    .padding()
+                    .frame(width: UIScreen.main.bounds.width-20, height: 450, alignment: .bottomLeading)
+                    
+                    
             }
             VStack (alignment: .leading) {
                 Text("About destination")
@@ -47,7 +50,7 @@ struct DetailViewCard: View {
             }
             .frame(width: 350, height: .none, alignment: .topLeading)
                         MapView(coordinate: locationItem.getLocation())
-                .frame( width: 350, height: 150)
+                .frame( width: 350, height: 300)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .shadow(radius: 3)
                 .padding([.top],20)
@@ -62,10 +65,11 @@ struct DetailViewCard: View {
                                 .background(Color.pink) // Background color of the button
                                 .cornerRadius(10) // Rounded corners for the button
                         }
+            
             }
+            Spacer()
 
         }
-
     }
 }
 

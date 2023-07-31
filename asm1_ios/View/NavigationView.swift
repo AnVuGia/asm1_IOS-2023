@@ -23,9 +23,10 @@ struct NavigationView: View {
                 NavigationLink(destination: DetailViewCard(locationItem: locations[randomNum]), label:
                     {
                     ZStack
-                        {Image(locations[randomNum].imageName)
+                        {
+                        Image(locations[randomNum].imageName)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .aspectRatio(contentMode: .fill)
                         .frame(width: UIScreen.main.bounds.width-20, height: 250)
                         .background(Color.white)
                         .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -35,8 +36,13 @@ struct NavigationView: View {
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(Color.black)
-                        .frame(width: UIScreen.main.bounds.width-50, height: 230, alignment: .bottomLeading)
-                        }
+                        .padding()
+                        .background(Color.white)
+                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                        .shadow(radius: 10)
+                        .frame(width: UIScreen.main.bounds.width-50, height: 300, alignment: .bottomLeading)
+                        }.frame(width: UIScreen.main.bounds.width-20, height: 300)
+
 
                     }
                             )

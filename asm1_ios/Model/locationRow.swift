@@ -13,8 +13,8 @@ struct locationRow: View {
         VStack {
             Image(locationItem.imageName)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
-                .background(Color.white)
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 250, height: 240)
                 .clipShape(RoundedRectangle(cornerRadius: 40))
                 .padding([ .top],10)
                 .shadow(radius: 1)
