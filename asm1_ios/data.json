@@ -4,104 +4,119 @@
     "content": "Nếu bạn đang tìm một thác nước đẹp nằm ngay trong thành phố thì hãy đến ngay thác Datanla, nơi có hệ thống máng trượt băng rừng dài nhất Đông Nam Á cùng các trò chơi hấp dẫn khác. Thác Datanla nằm giữa đèo Prenn, có độ cao hơn 20m, lại nằm ở thượng nguồn của dòng chảy nên dòng nước lúc nào cũng chảy ổn định và êm đềm.Đến với khu du lịch thác Datanla bạn được tham gia trải nghiệm các trò chơi từ nhẹ nhàng đến mạo hiểm. Đặc biệt, bạn nên thử trò  duy nhất tại Đà Lạt đầy lôi cuốn. Ngoài ra, bạn có thể tham gia hoạt động , hoặc  để thử thách bản lĩnh của mình. Tất nhiên, Datanla không thể thiếu chèo thuyền và đi cáp treo để ngắm nhìn thiên nhiên núi rừng Đà Lạt.",
     "imageName": "Datanla",
     "latitude": 11.904273937045973,
-    "longitude": 108.44947408394455
+    "longitude": 108.44947408394455,
+    "rating": 4.3
   },
   { "id": 2,
     "name": "Vườn Thú ZooDoo",
     "content": "Một địa điểm cực kỳ thu hút trong thời gian gần đây, chính là vườn thú ZooDoo Đà Lạt – mô hình quán cà phê kết hợp với vườn thú mở rất độc đáo. Gian nhà chính của ZooDoo được bao quanh bởi rừng thông tươi mát và yên tĩnh. ZooDoo sẽ là nơi lý tưởng cho các gia đình có trẻ nhỏ. Đến đây, chắc chắn các bé sẽ rất thích những con vật vừa hiền lành vừa ngộ nghĩnh như lạc đà, cừu, ngựa lùn, kangaroo, v.v. chủ yếu được nhập từ Úc.    Vườn thú ZooDoo còn là điểm tuyệt vời để cắm trại. Khi cắm trại tại đây, bạn không cần chuẩn bị gì vì đã có sẵn lều trại, bếp lò, và các vật dụng thiết yếu khác với giá thành khá mềm. Bạn có thể đem theo đồ ăn thức uống, nhưng nếu cần thì quán cafe ZooDoo luôn sẵn sàng phục vụ bạn với nhiều món ngon, dao động từ 15.000đ đến 30.000đ thôi. Vườn thú Zoodoo Đà Lạt giới hạn số lượng khách tham quan trong ngày, nên bạn nhớ  trước ít nhất một ngày nhé.",
     "imageName": "zoodoo",
     "latitude": 12.112225478081749,
-    "longitude": 108.58610361092934
+    "longitude": 108.58610361092934,
+    "rating": 4.3
   },
   { "id": 3,
     "name": "Núi Langbiang",
     "content": "Được ví như trái tim của Đà Lạt, núi Langbiang nổi tiếng với loại hình dã ngoại, khám phá thiên nhiên, thu hút các bạn trẻ mê phượt và những nhà mạo hiểm. Nơi đây là ngôi nhà chung của nhiều loại thảo dược, thảo mộc, và chim quý. Ở , hoạt động thường thấy là tham quan ngắm cảnh. Ngoài ra, bạn có thể thử sức leo núi, chơi dù lượn, chinh phục đỉnh núi.    Khu vực đồi Radar cũng là lựa chọn của nhiều du khách, bạn có thể thuê xe jeep hoặc đi bộ để lên đỉnh đỉnh đồi. Trên đồi Radar có nhiều điểm vui chơi như: vườn hoa, cây cảnh, quán cà phê, khu vực ống nhòm, cưỡi ngựa, v.v. Ngoài ra, bạn có thể khám phá đồi núi Ông, núi Bà bằng cách đi bộ xuyên qua rừng thông. Cách di chuyển này hơi mạo hiểm nhưng chắc chắn sẽ mang lại cho bạn nhiều kỷ niệm khó quên.",
     "imageName": "langbiang",
     "latitude": 12.011290134934805,
-    "longitude": 108.41949100029389
+    "longitude": 108.41949100029389,
+    "rating": 4.2
   },
   { "id": 4,
     "name": "Vườn Ánh Sáng Lumiere",
     "content": "Nếu đã quen với một Đà Lạt xưa cổ, ắt hẳn bạn sẽ thích thú với Vườn Ánh Sáng – Lumiere Đà Lạt, một địa điểm mới khai trương tại Đà Lạt và đang gây bão mạng xã hội hiện nay. Vườn Ánh Sáng là một không gian triển lãm ánh sáng nghệ thuật, đưa ứng dụng công nghệ bậc nhất Việt Nam vào những màn trình chiếu cực kỳ ấn tượng. Lumiere Đà Lạt chinh phục du khách bởi sự sáng tạo, kết hợp giữa nghệ thuật sắp đặt và công nghệ hiện đại.có tất cả 9 phòng trưng bày với các chủ đề và không gian khác nhau. Bạn có thể thoải mái quay phim, chụp hình trong ánh đèn lung linh rực rỡ, lưu lại những dấu ấn nghệ thuật với cảm xúc thăng hoa nhất tại “tọa độ sống ảo” mới toanh này.",
     "imageName": "lumiere",
     "latitude": 11.97630690379061,
-    "longitude":  108.4438770127813
+    "longitude":  108.4438770127813,
+    "rating": 4.5
   },
   { "id": 5,
     "name": "Đồi Robin",
     "content": "Nằm trên đèo Prenn thơ mộng, đồi Robin đã trở thành một điểm tham quan hấp dẫn bởi nơi đây sở hữu tầm nhìn vô cùng thoáng đãng để chiêm ngưỡng vẻ đẹp của Đà Lạt. Đồi Robin còn được gọi là , với tuyến cáp treo dài hơn 2km từ đồi Robin tới Thiền Viện Trúc Lâm. Một chuyến cáp treo từ đồi Robin đến Thiền viện Trúc lâm sẽ mất khoảng 12 phút. Trong thời gian đó, bạn tha hồ chiêm ngưỡng toàn cảnh hồ Tuyền Lâm, núi Voi, đắm mình giữa thiên nhiên và lần lượt lướt qua núi rừng bao la, những vườn hoa rực rỡ hay những ngôi biệt thự cổ.",
     "imageName": "robin",
     "latitude": 11.903983258060471,
-    "longitude": 108.43685364161695
+    "longitude": 108.43685364161695,
+    "rating": 3.5
   },
   { "id": 6,
     "name": "Hồ Tuyền Lâm",
     "content": "Hồ Tuyền Lâm Đà Lạt là một trong những hồ nước đẹp nhất Đà Lạt. Cùng với hồ Xuân Hương, hồ Tuyền Lâm chính là lá phổi xanh của thành phố – nơi bạn được thả hồn vào gió, nước, mây trời, và rừng thông tuyệt đẹp.    Đến Khu du lịch hồ Tuyền Lâm, ngoài việc thỏa thích tham quan, ngắm cảnh, bạn còn có thể tham gia , đi cano. Trên đường du ngoạn, bạn có thể dừng lại ở những địa điểm đẹp để chụp hình với bãi cỏ lau, hoặc tham quan vườn dâu và rừng lá phong. ",
     "imageName": "tuyenlam",
     "latitude": 11.892272204264293,
-    "longitude": 108.42442298579866
+    "longitude": 108.42442298579866,
+    "rating": 4.2
   },
   { "id": 7,
     "name": "Hồ Xuân Hương",
     "content": "Bất cứ ai khi đến trung tâm Đà Lạt đều cũng ngỡ ngàng trước vẻ đẹp của hồ Xuân Hương – viên ngọc xanh của thành phố – với hàng thông, những khóm hoa, bãi cỏ xanh mướt, giúp tô điểm thêm cho vẻ lãng mạn của nơi này. Đặc biệt, vào mùa xuân, ven hồ Xuân Hương thấp thoáng mai anh đào nở dịu dàng trong nắng. Tại đây, bạn có thể dạo chơi quanh hồ Xuân Hương trên những chiếc xe đạp đôi, ghé Thủy Tạ hay Bích Câu để thưởng thức một ly cà phê nóng hổi giữa khung cảnh thiên nhiên tuyệt đẹp. Sáng sớm, bạn nên ra hồ Xuân Hương để cảm nhận hơi thở của thành phố khi còn chìm trong lớp sương đêm. Khi đêm về, nơi đây lại khá náo nhiệt với hàng quán, tha hồ cho bạn thưởng thức những món ăn vặt đặc trưng của địa phương.",
     "imageName": "xuanhuong",
     "latitude": 11.941028868279638,
-    "longitude": 108.44394702244088
+    "longitude": 108.44394702244088,
+    "rating": 4.7
   },
   { "id": 8,
      "name": "Đường Hầm Điêu Khắc",
      "content": "Một trong những điểm tham quan nổi tiếng Đà Lạt đó là Đường hầm điêu khắc, hay còn được gọi là Đường hầm đất sét, hoặc Làng đất sét. Đường hầm điêu khắc Đà Lạt là đường hầm dài nhất thế giới được làm bằng đất sét, nổi bật với những tác phẩm miêu tả thiên nhiên, con người Đà Lạt bằng đất sét đỏ đặc trưng. Khu du lịch này còn là nơi tái hiện lại những công trình đặc trưng của thành phố như nhà ga xe lửa, nhà thờ Con Gà, núi Langbiang… Đặc biệt, khu vực vô cực đang trở thành địa điểm “sống ảo” hot nhất ở đây, với hồ nước lưng chừng đồi và tạo hình hai nhân vật cực kỳ ấn tượng trên mặt nước.",
-     "imageName": "dieukhacdieu",
-     "latitude": 10.72,
-     "longitude": 106.69
+     "imageName": "dieukhac",
+     "latitude": 11.883450880608013,
+     "longitude": 108.41089253790992,
+     "rating": 4.1
    },
   { "id": 9,
      "name": "Fairytale Land",
      "content": "Vùng đất cổ tích Fairytale Land – Hầm rượu vang Vĩnh Tiến Đà Lạt là “thánh địa sống ảo” gây sốt trong thời gian gần đây. Khu du lịch này lấy ý tưởng từ ngôi làng cổ tích Hobbit tại phía bắc New Zealand để tạo nên thế giới của những người lùn, một vùng đất cổ tích dễ thương, cùng với đó là những vườn hoa đủ sắc màu, rực rỡ trong nắng. Sau khi thăm thú vương quốc hobbit xong, bạn có thể dừng chân tại hầm rượu vang Vĩnh Tiến, một không gian sang trọng và ấm cúng với 15.000 chai rượu vang các loại. Đặc biệt, khi , bạn sẽ được tặng một chai atiso Vĩnh Tiến mát lạnh. Ngoài ra, nơi đây còn có hướng dẫn viên đưa bạn đi tham quan đầy đủ các nơi trong khu du lịch tận tình và chu đáo.",
      "imageName": "fairytale",
-     "latitude": 10.72,
-     "longitude": 106.69
+     "latitude": 11.948870008502556,
+     "longitude": 108.40290499743631,
+     "rating": 4.2
    },
   { "id": 10,
      "name": " QUE Garden",
      "content": "Nếu yêu thích nghệ thuật cây cảnh bonsai, hãy ghé đến QUE Garden Đà Lạt, vườn bonsai lá kim lớn nhất Việt Nam. Đến , bạn ngỡ như mình đang ở đất nước mặt trời mọc, với những chậu cây bonsai được chăm sóc và uốn nắn kỹ lưỡng vô cùng đẹp mắt, bên cạnh hồ cá Koi đạt tiêu chuẩn Nhật Bản với hàng ngàn con cá Koi to khỏe. Ngoài ra, bạn có thể thưởng thức cà phê hoặc ăn nhẹ tại quán cafe trong vườn, đắm mình trong không gian thư thái, yên bình của thiên nhiên, đất trời Đà Lạt.",
      "imageName": "quegarden",
-     "latitude": 10.72,
-     "longitude": 106.69
+     "latitude": 11.958272912425434,
+     "longitude": 108.39775995696209,
+     "rating": 4.9
    },
   { "id": 11,
      "name": "Trang Trại Cún",
      "content": " là một địa điểm chiếm được sự yêu mến của rất nhiều người, bởi đây là ngôi nhà chung của hơn 150 chú chó “cưng xỉu”. Khi đến đây, bạn không chỉ chơi đùa với những em cún dễ thương, mà còn được dạo quanh những cánh đồng hoa xinh đẹp, hay vườn nông sản được trồng theo công nghệ hiện đại. Tại trang trại luôn có đội ngũ nhân viên hướng dẫn, hỗ trợ nhiệt tình khi bạn cần. Thật khó lòng bỏ qua một nơi đáng yêu như thế trong chuyến đi Đà Lạt của mình phải không nào!",
      "imageName": "traicun",
-     "latitude": 10.72,
-     "longitude": 106.69
+     "latitude": 11.963415433746501,
+     "longitude": 108.38854172627254,
+     "rating": 4.0
    },
   { "id": 12,
      "name": "Domaine De Marie",
      "content": "Tọa lạc trên đồi Mai Anh, nhà thờ  còn có tên gọi khác là nhà thờ Mai Anh. Đây là một cụm công trình kiến trúc bao gồm nhà nguyện chính và hai dãy nhà tu viện Bác Ái Thánh Vinh Sơn. Nhà thờ được thiết kế, xây dựng theo phong cách Châu Âu thế kỉ thứ 17, không có tháp chuông, và hệ thống chiếu sáng được làm bằng những khung kính màu. Domaine De Marie nổi tiếng với màu vôi hồng nâu rực rỡ, nổi bật giữa vườn hoa hải tiên được trồng rất nhiều trong khuôn viên nhà thờ.",
      "imageName": "marie",
-     "latitude": 10.72,
-     "longitude": 106.69
+     "latitude": 11.94965023339508,
+     "longitude": 108.43034907045363,
+     "rating": 4.5
    },
   { "id": 13,
      "name": "Vườn Bí Ngô Khổng Lồ",
      "content": "Đà Lạt có nhiều nơi trồng bí ngô, nhưng phải kể đến vườn bí ngô khổng lồ của gia đình ông Phan, với ba loại bí khổng lồ có trọng lượng lên đến 100kg. Ngoài bí ngô khổng lồ, vườn của ông Phan còn trồng rất nhiều những loại rau quả khác theo mùa như: cải xoăn, bông cải, đặc biệt là cà chua đen và cà chua vàng. Đây vẫn là một vườn rau kinh doanh cung cấp nông sản cho thị trường, nên thời gian mở cửa tham quan chỉ giới hạn vào buổi sáng, từ 8g đến 10g30. Các bạn nhớ lưu ý điều này nhé.",
      "imageName": "bingo",
-     "latitude": 10.72,
-     "longitude": 106.69
+     "latitude": 11.952967827681098,
+     "longitude": 108.47556162627257,
+     "rating": 3.8
    },
   { "id": 14,
      "name": "Bali Green Hills",
      "content": "Tọa lạc bên trong khu nghỉ dưỡng Greenland 2, Cổng trời Bali Đà Lạt, hay còn được biết đến với tên gọi là Green Hills Đà Lạt là một trong những địa điểm tham quan được các bạn trẻ ưa thích nhất Đà Lạt. Cổng trời Đà Lạt là phiên bản Việt của Cổng trời Bali tại ngôi đền Pura Lempuyang Luhur, Indonesia. Nằm giữa rừng thông xanh bạt ngàn và núi đồi đặc trưng của Đà Lạt. Để có được những bức ảnh ảo diệu, bạn nên đến nơi đây vào sáng sớm hoặc lúc chiều tà, để bắt được những khoảnh khắc tuyệt đẹp của thiên nhiên.",
      "imageName": "bali",
-     "latitude": 10.72,
-     "longitude": 106.69
+     "latitude": 11.923604111575218,
+     "longitude": 108.44438809928944,
+     "rating": 3.6
    },
   { "id": 15,
      "name": "Thác Pongour",
      "content": " được rất nhiều người biết đến bởi sự hùng vĩ, hoang sơ với hệ động thực vật đa dạng và được mệnh danh là Nam Thiên Đệ Nhất Thác.Đặc điểm nhận dạng thác Pongour là dòng nước đổ dài xuống 7 tầng đá đầy rêu xanh, tạo nên một bức tranh đầy lôi cuốn mà thiên nhiên đã cất công tạo thành. Tham quan, khám phá thác nước này sẽ là một trải nghiệm đầy thú vị dành cho bạn. Ngoài ra, bạn có thể đem theo đồ ăn để nướng tại chỗ, hoặc tổ chức cắm trại qua đêm sau khi được sự đồng ý của ban quản lý khu du lịch. Đặc biệt, nếu đến đây vào ngày rằm tháng giêng hằng năm, bạn có cơ hội tham gia lễ hội do người K’Ho tổ chức để tưởng nhớ tới tù trưởng Kanai đáng kính của họ.",
      "imageName": "pongour",
-     "latitude": 10.72,
-     "longitude": 106.69
+     "latitude": 11.68792849783352,
+     "longitude": 108.26567576593933,
+     "rating": 4.4
    }
 ]

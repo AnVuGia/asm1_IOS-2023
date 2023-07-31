@@ -15,6 +15,7 @@ struct locationItem: Identifiable,Decodable {
     var content : String
     var latitude: Double
     var longitude: Double
+    var rating: Double
     var image: Image {
         Image(imageName)
     }

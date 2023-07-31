@@ -19,30 +19,36 @@ struct DetailViewCard: View {
                     .frame(width: 360, height: 350)
                     .clipShape(RoundedRectangle(cornerRadius: 30))
 
-                Text(locationItem.name)
-                    .foregroundColor(.black)
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .padding([.leading, .trailing], 10)
+                VStack(alignment: .leading) {
+                    Text(locationItem.name)
+                        .foregroundColor(.black)
+                        .font(.title)
+                        .fontWeight(.bold)
+                    HStack {
+                        Image(systemName:"star.fill")
+                            .foregroundColor(Color.yellow)
+                        Text(String(format: "%.1f", locationItem.rating))
+                    }
+                }.padding([.leading, .trailing], 10)
                     .padding([.top, .bottom], 10)
                     .background(Color.white)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .shadow(radius: 10)
                     .padding()
-                    .frame(width: UIScreen.main.bounds.width-20, height: 450, alignment: .bottomLeading)
-                    
+                .frame(width: UIScreen.main.bounds.width-20, height: 450, alignment: .bottomLeading)
+        
                     
             }
             VStack (alignment: .leading) {
                 Text("About destination")
                 .font(.title)
                 .fontWeight(.bold)
-                .foregroundColor(.black)
+                .foregroundColor(Color.black)
                 .padding([.top], 20)
                
 
                 Text(locationItem.content)
-                    .foregroundColor(.black)
+                    .foregroundColor(Color.black)
                     .font(.body)
                     .padding([.top],1)
 
