@@ -24,8 +24,8 @@ struct DetailViewCard: View {
                     .foregroundColor(.black)
                     .font(.largeTitle)
                     .padding([.leading, .trailing], 70)
-                    .padding([.top, .bottom], 5)
-                    .background(Color.blue)
+                    .padding([.top, .bottom], 10)
+                    .background(Color.white)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .shadow(radius: 10) 
                     .frame(width: 300, height: 400, alignment: .bottomLeading)
@@ -46,8 +46,7 @@ struct DetailViewCard: View {
 
             }
             .frame(width: 350, height: .none, alignment: .topLeading)
-            .background(Color.red)
-            MapView(coordinate: locationItem.getLocation())
+                        MapView(coordinate: locationItem.getLocation())
                 .frame( width: 350, height: 150)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .shadow(radius: 3)
@@ -57,10 +56,10 @@ struct DetailViewCard: View {
                             // Code to execute when the button is tapped
                             print("Button tapped!")
                         }) {
-                            Text("Tap Me!") // Text inside the button
+                            Text("Add to Favorite!") // Text inside the button
                                 .padding() // Add some padding around the text
                                 .foregroundColor(.white) // Text color
-                                .background(Color.green) // Background color of the button
+                                .background(Color.pink) // Background color of the button
                                 .cornerRadius(10) // Rounded corners for the button
                         }
             }

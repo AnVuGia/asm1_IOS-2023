@@ -10,31 +10,28 @@ import SwiftUI
 struct locationRow: View {
     var locationItem : locationItem
     var body: some View {
-        ZStack{
-            Image(locationItem.name)
+        VStack {
+            Image(locationItem.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 300, height: 150)
-                .padding()
+                .background(Color.white)
+                .clipShape(RoundedRectangle(cornerRadius: 40))
+                .padding([ .top],10)
+                .shadow(radius: 1)
             Text(locationItem.name)
-                .foregroundColor(.black)
-                .padding([ .leading, .trailing],20)
-                .padding([.top, .bottom], 5)
-                .background(Color.black)
-                .cornerRadius(10)
-                .opacity(0.8)
-                .frame(width: 300, height: 150, alignment: .bottomTrailing)
-            Text(locationItem.name)
-                .foregroundColor(.black)
-                .frame(width: 300, height: 150, alignment: .bottomLeading)
-            
-            
-           
-        }.background()
-            .clipShape(RoundedRectangle(cornerRadius: 10))
-            .shadow(radius: 10)
+            .font(.title)
+            .fontWeight(.bold)
+            .foregroundColor(Color.black)
             .padding()
-        }
+                      
+        }.frame(width: 265, height: 320, alignment: .center)
+            .background(Color.white)
+            .clipShape(RoundedRectangle(cornerRadius: 40))
+            .shadow(radius: 10)
+
+                      
+            
+    }
 }
 
 struct locationRow_Previews: PreviewProvider {
