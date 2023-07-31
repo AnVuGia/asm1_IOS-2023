@@ -5,7 +5,8 @@
     "imageName": "Datanla",
     "latitude": 11.904273937045973,
     "longitude": 108.44947408394455,
-    "rating": 4.3
+    "rating": 4.3,
+    "isFavorite": false
   },
   { "id": 2,
     "name": "Vườn Thú ZooDoo",
@@ -13,7 +14,9 @@
     "imageName": "zoodoo",
     "latitude": 12.112225478081749,
     "longitude": 108.58610361092934,
-    "rating": 4.3
+    "rating": 4.3,
+    "isFavorite": false
+
   },
   { "id": 3,
     "name": "Núi Langbiang",
@@ -21,7 +24,9 @@
     "imageName": "langbiang",
     "latitude": 12.011290134934805,
     "longitude": 108.41949100029389,
-    "rating": 4.2
+    "rating": 4.2,
+    "isFavorite": false
+
   },
   { "id": 4,
     "name": "Vườn Ánh Sáng Lumiere",
@@ -29,7 +34,9 @@
     "imageName": "lumiere",
     "latitude": 11.97630690379061,
     "longitude":  108.4438770127813,
-    "rating": 4.5
+    "rating": 4.5,
+    "isFavorite": false
+
   },
   { "id": 5,
     "name": "Đồi Robin",
@@ -37,7 +44,9 @@
     "imageName": "robin",
     "latitude": 11.903983258060471,
     "longitude": 108.43685364161695,
-    "rating": 3.5
+    "rating": 3.5,
+    "isFavorite": false
+
   },
   { "id": 6,
     "name": "Hồ Tuyền Lâm",
@@ -45,7 +54,9 @@
     "imageName": "tuyenlam",
     "latitude": 11.892272204264293,
     "longitude": 108.42442298579866,
-    "rating": 4.2
+    "rating": 4.2,
+    "isFavorite": false
+
   },
   { "id": 7,
     "name": "Hồ Xuân Hương",
@@ -53,7 +64,9 @@
     "imageName": "xuanhuong",
     "latitude": 11.941028868279638,
     "longitude": 108.44394702244088,
-    "rating": 4.7
+    "rating": 4.7,
+    "isFavorite": false
+
   },
   { "id": 8,
      "name": "Đường Hầm Điêu Khắc",
@@ -61,7 +74,9 @@
      "imageName": "dieukhac",
      "latitude": 11.883450880608013,
      "longitude": 108.41089253790992,
-     "rating": 4.1
+     "rating": 4.1,
+     "isFavorite": false
+
    },
   { "id": 9,
      "name": "Fairytale Land",
@@ -69,7 +84,9 @@
      "imageName": "fairytale",
      "latitude": 11.948870008502556,
      "longitude": 108.40290499743631,
-     "rating": 4.2
+     "rating": 4.2,
+     "isFavorite": false
+
    },
   { "id": 10,
      "name": " QUE Garden",
@@ -77,7 +94,9 @@
      "imageName": "quegarden",
      "latitude": 11.958272912425434,
      "longitude": 108.39775995696209,
-     "rating": 4.9
+     "rating": 4.9,
+     "isFavorite": false
+
    },
   { "id": 11,
      "name": "Trang Trại Cún",
@@ -85,7 +104,10 @@
      "imageName": "traicun",
      "latitude": 11.963415433746501,
      "longitude": 108.38854172627254,
-     "rating": 4.0
+     "rating": 4.0,
+     "isFavorite": false
+
+
    },
   { "id": 12,
      "name": "Domaine De Marie",
@@ -93,7 +115,9 @@
      "imageName": "marie",
      "latitude": 11.94965023339508,
      "longitude": 108.43034907045363,
-     "rating": 4.5
+     "rating": 4.5,
+     "isFavorite": false
+
    },
   { "id": 13,
      "name": "Vườn Bí Ngô Khổng Lồ",
@@ -101,7 +125,9 @@
      "imageName": "bingo",
      "latitude": 11.952967827681098,
      "longitude": 108.47556162627257,
-     "rating": 3.8
+     "rating": 3.8,
+     "isFavorite": false
+
    },
   { "id": 14,
      "name": "Bali Green Hills",
@@ -109,7 +135,9 @@
      "imageName": "bali",
      "latitude": 11.923604111575218,
      "longitude": 108.44438809928944,
-     "rating": 3.6
+     "rating": 3.6,
+     "isFavorite": false
+
    },
   { "id": 15,
      "name": "Thác Pongour",
@@ -117,6 +145,8 @@
      "imageName": "pongour",
      "latitude": 11.68792849783352,
      "longitude": 108.26567576593933,
-     "rating": 4.4
+     "rating": 4.4,
+     "isFavorite": false
+
    }
 ]

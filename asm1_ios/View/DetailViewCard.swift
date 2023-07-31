@@ -8,9 +8,8 @@
 import SwiftUI
 import MapKit
 struct DetailViewCard: View {
-    var locationItem: locationItem
-    @State var favoriteLocation : [locationItem]
-    var body: some View {
+    @State var locationItem: locationItem
+        var body: some View {
         ScrollView{
             ZStack {
                 Image(locationItem.imageName)
@@ -61,25 +60,19 @@ struct DetailViewCard: View {
                 .shadow(radius: 3)
                 .padding([.top],20)
             HStack{
-                if(favoriteLocation.contains {
-                    location in
-                    return location.id == locationItem.id
-                }){
+                if(locationItem.isFavorite){
                     Button(action: {
-                        favoriteLocation.removeAll {
-                            location in
-                            return location.id == locationItem.id
-                        }
+                        locationItem.setFavorite(favoriteState: false)
                             }) {
                                 Text("Remove from Favorite!")                    
                                 .padding()                           
                                 .foregroundColor(.white)
-                                    .background(Color.pink)
+                                    .background(Color.red)
                                     .cornerRadius(10)
                         }
                 } else {
                     Button(action: {
-                        favLocation.append(locationItem)
+                        locationItem.setFavorite(favoriteState: true)
                     }) {
                         Text("Add to Favorite!")                    
                         .padding()                           
@@ -99,6 +92,6 @@ struct DetailViewCard: View {
 
 struct DetailViewCard_Previews: PreviewProvider {
     static var previews: some View {
-        DetailViewCard(locationItem: locations[0], favoriteLocation: favLocation)
+        DetailViewCard(locationItem: locations[0])
     }
 }

@@ -9,7 +9,6 @@ import SwiftUI
 
 struct FindView: View {
     var locations : [locationItem]
-    var favoriteLocation : [locationItem]
     @State var searchText = ""
     @State private var selectedRating : Int = 0
     var body: some View {
@@ -22,7 +21,7 @@ struct FindView: View {
             }.pickerStyle(SegmentedPickerStyle())
             
             List (searchResults, id: \.id) { location in
-                NavigationLink(destination: DetailViewCard(locationItem: location,favoriteLocation: favoriteLocation), label: {
+                NavigationLink(destination: DetailViewCard(locationItem: location), label: {
                     VStack {
                         Spacer()
                         Image(location.imageName)
@@ -61,7 +60,7 @@ struct FindView: View {
         } else if (selectedRating == 4){
             filteredResult = locations.filter { $0.rating >= 4.0 && $0.rating < 5.0}
         } else {
-            filteredResult = favoriteLocation
+            filteredResult = locations.filter{$0.isFavorite}
         }
             if searchText.isEmpty {
                 return filteredResult
@@ -73,6 +72,6 @@ struct FindView: View {
 
 struct FindView_Previews: PreviewProvider {
     static var previews: some View {
-        FindView(locations: locations, favoriteLocation: favLocation)
+        FindView(locations: locations)
     }
 }

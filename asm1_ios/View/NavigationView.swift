@@ -21,7 +21,7 @@ struct NavigationView: View {
                 
                     .padding([.top,.leading], 10)
                 
-                NavigationLink(destination: DetailViewCard(locationItem: locations[randomNum],favoriteLocation: favLocation), label:
+                NavigationLink(destination: DetailViewCard(locationItem: locations[randomNum]), label:
                                 {
                     ZStack
                     {
@@ -74,7 +74,7 @@ struct NavigationView: View {
                 ScrollView(.horizontal) {
                     HStack {
                         ForEach(locations, id: \.id) { location in
-                            NavigationLink(destination: {DetailViewCard(locationItem: location, favoriteLocation: favLocation)},
+                            NavigationLink(destination: {DetailViewCard(locationItem: location)},
                                            label: {
                                 locationRow(locationItem: location)
                                     .padding()
@@ -84,6 +84,8 @@ struct NavigationView: View {
                     }
                 }
                 Spacer()
+                NavigationBar(locations: locations)
+                    .padding()
             }
         }
         

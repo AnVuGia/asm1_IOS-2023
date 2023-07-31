@@ -16,12 +16,16 @@ struct locationItem: Identifiable,Decodable {
     var latitude: Double
     var longitude: Double
     var rating: Double
+    var isFavorite: Bool = false
     var image: Image {
         Image(imageName)
     }
     func getLocation() -> CLLocationCoordinate2D {
         return
             CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+    mutating func setFavorite(favoriteState: Bool){
+        isFavorite = favoriteState
     }
     
 }
