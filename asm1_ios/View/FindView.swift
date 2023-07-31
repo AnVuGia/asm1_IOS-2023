@@ -60,7 +60,7 @@ struct FindView: View {
         } else if (selectedRating == 4){
             filteredResult = locations.filter { $0.rating >= 4.0 && $0.rating < 5.0}
         } else {
-            filteredResult = locations.filter{$0.isFavorite}
+            filteredResult = locations.filter{$0.isFavorite == true}
         }
             if searchText.isEmpty {
                 return filteredResult

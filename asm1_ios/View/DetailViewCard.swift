@@ -63,6 +63,7 @@ struct DetailViewCard: View {
                 if(locationItem.isFavorite){
                     Button(action: {
                         locationItem.setFavorite(favoriteState: false)
+                        print(locationItem.isFavorite)
                             }) {
                                 Text("Remove from Favorite!")                    
                                 .padding()                           
@@ -73,6 +74,8 @@ struct DetailViewCard: View {
                 } else {
                     Button(action: {
                         locationItem.setFavorite(favoriteState: true)
+                        print(locationItem.isFavorite)
+
                     }) {
                         Text("Add to Favorite!")                    
                         .padding()                           

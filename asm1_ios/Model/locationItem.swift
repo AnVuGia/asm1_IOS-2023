@@ -16,7 +16,7 @@ struct locationItem: Identifiable,Decodable {
     var latitude: Double
     var longitude: Double
     var rating: Double
-    var isFavorite: Bool = false
+    var isFavorite: Bool
     var image: Image {
         Image(imageName)
     }
