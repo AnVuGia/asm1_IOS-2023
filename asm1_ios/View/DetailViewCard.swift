@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 struct DetailViewCard: View {
-    @State var locationItem: locationItem
+        @State var locationItem: locationItem
         var body: some View {
         ScrollView{
             ZStack {
@@ -61,32 +61,28 @@ struct DetailViewCard: View {
                 .padding([.top],20)
             HStack{
                 if(locationItem.isFavorite){
-                    Button(action: {
-                        locationItem.setFavorite(favoriteState: false)
-                        print(locationItem.isFavorite)
-                            }) {
-                                Text("Remove from Favorite!")                    
-                                .padding()                           
-                                .foregroundColor(.white)
-                                    .background(Color.red)
-                                    .cornerRadius(10)
-                        }
+                    Button("Remove from favorite!"){
+                        locationItem.isFavorite = false
+                    }.padding()
+                        .background(Color.orange)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .shadow(radius: 4)
+                        .foregroundColor(Color.white)
+                        .fontWeight(.bold)
                 } else {
-                    Button(action: {
-                        locationItem.setFavorite(favoriteState: true)
-                        print(locationItem.isFavorite)
+                    Button("Add to favorite!"){
+                        locationItem.isFavorite = true
+                    }.padding()
+                        .background(Color.pink)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .shadow(radius: 4)
+                        .foregroundColor(Color.white)
+                        .fontWeight(.bold)
 
-                    }) {
-                        Text("Add to Favorite!")                    
-                        .padding()                           
-                        .foregroundColor(.white)
-                            .background(Color.pink)
-                            .cornerRadius(10)
-                    }
                 }
                 
             
-            }
+            }.padding()
             Spacer()
 
         }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FindView: View {
-    var locations : [locationItem]
+     var locations : [locationItem]
     @State var searchText = ""
     @State private var selectedRating : Int = 0
     var body: some View {
