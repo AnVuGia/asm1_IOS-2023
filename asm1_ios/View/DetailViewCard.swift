@@ -60,33 +60,34 @@ struct DetailViewCard: View {
                 .shadow(radius: 3)
                 .padding([.top],20)
             HStack{
-                if(locationItem.isFavorite){
-                    Button("Remove from favorite!"){
-                        locationItem.isFavorite = false
+                
+                    Button("Go to Map!"){
+                        var latitude = locationItem.latitude
+                        var longitude = locationItem.longitude
+                        let url = URL(string: "comgooglemaps://?saddr=&daddr=\(latitude),\(longitude)&directionsmode=driving")
+                        if UIApplication.shared.canOpenURL(url!) {
+                              UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+                        }
+                        else{
+                              let urlBrowser = URL(string: "https://www.google.co.in/maps/dir/??saddr=&daddr=\(latitude),\(longitude)&directionsmode=driving")
+                                        
+                               UIApplication.shared.open(urlBrowser!, options: [:], completionHandler: nil)
+                        }
                     }.padding()
                         .background(Color.orange)
                         .clipShape(RoundedRectangle(cornerRadius: 10))
                         .shadow(radius: 4)
                         .foregroundColor(Color.white)
                         .fontWeight(.bold)
-                } else {
-                    Button("Add to favorite!"){
-                        locationItem.isFavorite = true
-                    }.padding()
-                        .background(Color.pink)
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                        .shadow(radius: 4)
-                        .foregroundColor(Color.white)
-                        .fontWeight(.bold)
 
-                }
-                
-            
-            }.padding()
+                }.padding()
             Spacer()
+            
+            }
+            
 
         }
-    }
+    
 }
 
 struct DetailViewCard_Previews: PreviewProvider {
