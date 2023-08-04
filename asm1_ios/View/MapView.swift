@@ -8,13 +8,16 @@
 import SwiftUI
 import MapKit
 struct MapView: View {
-    var coordinate: CLLocationCoordinate2D
+    let locationItem : locationItem
     @State private var region = MKCoordinateRegion()
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region, annotationItems: [locationItem]){
+            location in
+            MapMarker(coordinate: locationItem.getLocation(), tint: Color.red)
+        }
             .onAppear{
                 region = MKCoordinateRegion(
-                    center: coordinate, span: MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004)
+                    center: locationItem.getLocation(), span: MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004)
                 )
             }
     }
